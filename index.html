@@ -74,7 +74,7 @@
             <h3>C1 : Concevoir la partie GEII d'un système</h3>
             <div class="ac-grid">
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y1">BUT1</span><span class="ac-code">AC11.02</span></div>
+                <div class="ac-meta"><span class="ac-year y1">BUT1</span></div>
                 <h4>Réaliser un prototype pour des solutions matérielles ou logicielles</h4>
                 <p><strong>Contexte :</strong> Concevoir un robot capable de suivre un parcours en évitant des obstacles, en autonomie.</p>
                 <p><strong>Mise en œuvre :</strong> Calibration de l'asservissement des deux roues pour obtenir une trajectoire rectiligne, puis optimisation de la stratégie d'évitement d'obstacles pour minimiser le temps de parcours.</p>
@@ -82,7 +82,7 @@
                 <a href="#proj-robot" class="text-link">→ Robot de course (BUT1)</a>
               </article>
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y2">BUT2</span><span class="ac-code">AC11.01</span><span class="ac-code">AC21.01</span></div>
+                <div class="ac-meta"><span class="ac-year y2">BUT2</span></div>
                 <h4>Analyse fonctionnelle et proposition de solutions techniques (logiciel)</h4>
                 <p><strong>Contexte :</strong> Développer un jeu de morpion jouable, avec un mode à deux joueurs.</p>
                 <p><strong>Mise en œuvre :</strong> Modélisation des règles du jeu et des transitions d'état (case vide/X/O, victoire, égalité), puis implémentation des algorithmes de gestion du mode joueur contre joueur en C#.</p>
@@ -90,7 +90,7 @@
                 <a href="#proj-morpion" class="text-link">→ Jeu du Morpion (BUT2)</a>
               </article>
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y2">BUT2</span><span class="ac-code">AC11.02</span><span class="ac-code">AC31.02</span></div>
+                <div class="ac-meta"><span class="ac-year y2">BUT2</span></div>
                 <h4>Prototype matériel et pertinence des choix technologiques</h4>
                 <p><strong>Contexte :</strong> Concevoir un système de mesure environnementale sans fil, longue portée et basse consommation.</p>
                 <p><strong>Mise en œuvre :</strong> Choix argumenté de la technologie LoRaWAN et des composants (capteur DHT20, Arduino MKR WAN 1310), puis prototypage physique de la chaîne de transmission.</p>
@@ -98,7 +98,7 @@
                 <a href="#proj-lorawan" class="text-link">→ Réseau LoRaWAN (BUT2)</a>
               </article>
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y3">BUT3</span><span class="ac-code">AC31.01</span><span class="ac-code">AC31.02</span><span class="ac-code">AC31.03</span></div>
+                <div class="ac-meta"><span class="ac-year y3">BUT3</span></div>
                 <h4>Contribuer au CDC, prouver ses choix technologiques, rédiger un dossier de conception</h4>
                 <ul>
                   <li><strong>Cahier des charges :</strong> Recueil des besoins avec mon tuteur puis rédaction complète du CDC (périmètre, architecture attendue, contraintes, livrables).</li>
@@ -115,7 +115,7 @@
             <h3>C2 : Vérifier la partie GEII d'un système</h3>
             <div class="ac-grid">
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y1">BUT1</span><span class="ac-code">AC12.02</span></div>
+                <div class="ac-meta"><span class="ac-year y1">BUT1</span></div>
                 <h4>Identifier un dysfonctionnement</h4>
                 <p><strong>Contexte :</strong> Les deux roues du robot ne tournaient pas à la même vitesse, ce qui faussait sa trajectoire.</p>
                 <p><strong>Mise en œuvre :</strong> Diagnostic de l'asymétrie de l'asservissement moteur, puis calibration corrective jusqu'à obtenir une trajectoire rectiligne fiable.</p>
@@ -123,7 +123,7 @@
                 <a href="#proj-robot" class="text-link">→ Robot de course (BUT1)</a>
               </article>
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y2">BUT2</span><span class="ac-code">AC12.01</span><span class="ac-code">AC12.03</span><span class="ac-code">AC32.03</span></div>
+                <div class="ac-meta"><span class="ac-year y2">BUT2</span></div>
                 <h4>Procédure d'essais et description des effets d'un dysfonctionnement</h4>
                 <p><strong>Contexte :</strong> Les flux Node-RED devaient être validés bout en bout, du capteur jusqu'au tableau de bord, avant d'ajouter la commande du relais.</p>
                 <p><strong>Mise en œuvre :</strong> Débogage des flux de traitement des données, puis conception et documentation de tests de validation finaux pour certifier le système complet.</p>
@@ -131,12 +131,12 @@
                 <a href="#proj-lorawan" class="text-link">→ Réseau LoRaWAN (BUT2)</a>
               </article>
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y3">BUT3</span><span class="ac-code">AC32.01</span><span class="ac-code">AC32.02</span></div>
+                <div class="ac-meta"><span class="ac-year y3">BUT3</span></div>
                 <h4>Évaluer la cause racine et proposer une solution corrective</h4>
                 <p><strong>Contexte :</strong> Des valeurs numériques importées apparaissaient corrompues, et des doublons faussaient les analyses de défauts électriques.</p>
                 <p><strong>Mise en œuvre :</strong> Diagnostic d'un conflit de locale sur les séparateurs décimaux, correction par un parsing manuel anti-locale, et refonte de la logique de rapprochement entre sources pour éliminer les doublons. Une démarche de vérification comparable a aussi été mobilisée sur le projet Modbus TCP.</p>
                 <p><strong>Bilan :</strong> Du diagnostic mécanique simple (BUT1) au débogage réseau (BUT2), puis à un pipeline de données complet en environnement professionnel (BUT3).</p>
-                <a href="#proj-carte-incidents" class="text-link">→ Outil Carte d'Incidents, RTE (BUT3)</a>
+                <a href="#proj-carte-incidents" class="text-link">→ Outil Carte d'Incidents, RTE (BUT3)</a> · <a href="#proj-modbus" class="text-link">→ Supervision Modbus TCP (BUT3)</a>
               </article>
             </div>
           </div>
@@ -146,7 +146,7 @@
             <p style="font-size:.9rem;color:var(--muted);margin-bottom:14px;">Cette compétence n'apparaît qu'à partir du BUT2 dans le référentiel officiel.</p>
             <div class="ac-grid">
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y2">BUT2</span><span class="ac-code">AC23.02</span></div>
+                <div class="ac-meta"><span class="ac-year y2">BUT2</span></div>
                 <h4>Exécuter une opération de maintenance améliorative</h4>
                 <p><strong>Contexte :</strong> Le système de mesure fonctionnait déjà ; il fallait l'améliorer avec une sortie physique commandable.</p>
                 <p><strong>Mise en œuvre :</strong> Intégration d'un module relais à l'Arduino pour commander une lampe, avec conception d'une carte PCB dédiée sur Proteus.</p>
@@ -154,7 +154,7 @@
                 <a href="#proj-lorawan" class="text-link">→ Réseau LoRaWAN (BUT2)</a>
               </article>
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y3">BUT3</span><span class="ac-code">AC33.02</span></div>
+                <div class="ac-meta"><span class="ac-year y3">BUT3</span></div>
                 <h4>Évaluer les coûts d'indisponibilité et de maintenance d'un système</h4>
                 <p><strong>Contexte :</strong> Pour donner du poids aux incidents identifiés, il fallait les traduire en impact économique et réglementaire.</p>
                 <p><strong>Mise en œuvre :</strong> Calcul de l'Énergie Non Distribuée (1 730 MWh), du Temps de Coupure Équivalent (2 min 32 s) et de l'incitation TURPE 7 associée.</p>
@@ -169,7 +169,7 @@
             <p style="font-size:.9rem;color:var(--muted);margin-bottom:14px;">Cette compétence n'apparaît qu'à partir du BUT2 dans le référentiel officiel.</p>
             <div class="ac-grid">
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y2">BUT2</span><span class="ac-code">AC24.01</span><span class="ac-code">AC24.02</span></div>
+                <div class="ac-meta"><span class="ac-year y2">BUT2</span></div>
                 <h4>Appliquer une procédure d'installation et évaluer la conformité</h4>
                 <p><strong>Contexte :</strong> Deux systèmes à installer et rendre pleinement opérationnels : le jeu du Morpion et la chaîne de mesure LoRaWAN.</p>
                 <p><strong>Mise en œuvre :</strong> Installation logicielle et gestion des dépendances pour le Morpion ; configuration des downlinks et intégration des commandes utilisateur pour le tableau de bord LoRaWAN.</p>
@@ -177,7 +177,7 @@
                 <a href="#proj-lorawan" class="text-link">→ Réseau LoRaWAN (BUT2)</a>
               </article>
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y2">BUT2</span><span class="ac-code">AC34.01</span><span class="ac-code">AC34.03</span></div>
+                <div class="ac-meta"><span class="ac-year y2">BUT2</span></div>
                 <h4>Produire une procédure d'installation et le dossier de conformité</h4>
                 <p><strong>Contexte :</strong> La carte PCB de commande du relais devait être reproductible par quelqu'un d'autre.</p>
                 <p><strong>Mise en œuvre :</strong> Réalisation complète de la chaîne électronique à partir du schéma (voir photo), documentation des étapes de connexion, et adoption du protocole Cayenne LPP pour un système plus robuste et extensible.</p>
@@ -185,7 +185,7 @@
                 <a href="#proj-lorawan" class="text-link">→ Réseau LoRaWAN (BUT2)</a>
               </article>
               <article class="ac-card">
-                <div class="ac-meta"><span class="ac-year y3">BUT3</span><span class="ac-code">AC34.01</span><span class="ac-code">AC34.02</span><span class="ac-code">AC34.03</span></div>
+                <div class="ac-meta"><span class="ac-year y3">BUT3</span></div>
                 <h4>Planifier, produire une procédure et gérer le versionnage</h4>
                 <ul>
                   <li><strong>Planification :</strong> Rédaction des parties du guide consacrées à l'installation de Power BI Desktop, à la récupération du fichier et à la connexion aux sources.</li>
@@ -193,7 +193,7 @@
                   <li><strong>Versionnage :</strong> Gestion de l'évolution du fichier (version prototype vers version finale) et nommage daté systématique des fichiers de correction.</li>
                 </ul>
                 <p><strong>Bilan :</strong> De la carte électronique reproductible (BUT2) au système logiciel complet documenté pour être repris par d'autres (BUT3).</p>
-                <a href="#proj-carte-incidents" class="text-link">→ Outil Carte d'Incidents, RTE (BUT3)</a>
+                <a href="#proj-carte-incidents" class="text-link">→ Outil Carte d'Incidents, RTE (BUT3)</a> · <a href="#proj-mqtt-docker" class="text-link">→ MQTT &amp; Docker (BUT3)</a>
               </article>
             </div>
           </div>
